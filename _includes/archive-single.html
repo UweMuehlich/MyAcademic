@@ -1,0 +1,56 @@
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <!-- Post the title -->
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+    </h2>
+
+    <!-- Talks -->
+    {% if post.collection == 'talks' %}
+      <div class="talk_date"><i class="far fa-clock" aria-hidden="true"></i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</div>
+      <div class="talk_venue"><i class="far fa-map"></i> {{ post.venue }}, {{ post.location }}</div>
+    {% endif %}
+
+
+    <!-- Publications -->
+    {% if post.collection == 'publications' %}
+    <div class="talk_venue">
+      {% if post.venue == 'In Prep' %}
+        {{post.date | default: "1900-01-01" | date: "%Y" }}, In Prep
+      {% else %}
+        Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+      {% endif %}
+    </div>
+        Author(s): {{post.authors}}
+    {% endif %}
+
+    {% if post.collection == 'teaching' %}
+      <div class="small_grey">
+        <i class="fas fa-university"></i> {{ post.university }}
+        {% if post.semester %}
+          | {{ post.semester }}
+        {% endif %}
+      </div>
+    {% if post.material == "yes" %}
+    <span class="small_grey" style="color:red">click topic for details</span>
+
+    {% endif %}
+    {% endif %}
+
+  </article>
+</div>
