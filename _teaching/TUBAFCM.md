@@ -8,7 +8,7 @@ date: 2014-09-01
 material: "yes"
 semester: "Spring 2012"
 ---
-
+ 
 <p> site {{site.url}} </p>
 
 <p> base {{site.baseurl}} </p>
