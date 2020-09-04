@@ -7,6 +7,4 @@ date: 2020-09-02
 location: "IconoSom Rom 2019, ICMM Lund 2019"
 ---
 
-<!---
 <a href="{{site.url}}{{site.baseurl}}/files/networks2019Lund.pdf" class="uline">Click here for a full pdf copy of the presentation </a>
--->
