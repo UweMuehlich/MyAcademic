@@ -8,12 +8,12 @@ date: 2014-09-01
 material: "yes"
 semester: "Spring 2012"
 ---
-
+<!---
 <p> site {{site.url}} </p>
 
 <p> base {{site.baseurl}} </p>
 
 <p> sitebase {{site.url}}{{site.baseurl}} </p>
+-->
 
-
-<a href="{{site.url}}{{site.baseurl}}/files/reviewlec.pdf" class="uline">Click here for a presentation summarizing the course. </a>
+<a href="{{site.url}}{{site.baseurl}}/files/reviewlec.pdf" class="uline" target="_blank">Click here for a presentation summarizing the course. </a>
