@@ -9,5 +9,6 @@ material: "yes"
 semester: "Spring 2012"
 ---
 
+<p> {{site.url}} </p>
 
 <a href="{{site.url}}/files/reviewlec.pdf" class="uline">Click here for a presentation summarizing the course. </a>
