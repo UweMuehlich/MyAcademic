@@ -11,6 +11,7 @@ classes: wide
 ---
 ## Videos
 
+video embedding
 
 <video muted autoplay controls width="480" height="320" controls="controls">
   <source src="{{site.url}}{{site.baseurl}}/files/SchChainAv1p0_500.mp4" type="video/mp4">
