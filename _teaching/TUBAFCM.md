@@ -13,4 +13,4 @@ semester: "Spring 2012"
 
 <p> base {{site.baseurl}} </p>
 
-<a href="{{site.url}}/files/reviewlec.pdf" class="uline">Click here for a presentation summarizing the course. </a>
+<a href="{{site.url}}{{githubFiles}}/files/reviewlec.pdf" class="uline">Click here for a presentation summarizing the course. </a>
