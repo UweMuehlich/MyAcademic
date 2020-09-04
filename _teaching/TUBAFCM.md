@@ -1,5 +1,5 @@
 ---
-title: "Continuum Mechanics"
+title: "Continuum Mechanics 1"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/course1
