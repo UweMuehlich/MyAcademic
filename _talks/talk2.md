@@ -8,4 +8,4 @@ date: 2020-09-02
 location: "UA"
 ---
 
-<a href="/files/AgeingBitumen.pdf" class="uline">Click here for a full pdf copy of the presentation </a>
+<a href="{{site.url}}/files/AgeingBitumen.pdf" class="uline">Click here for a full pdf copy of the presentation </a>
