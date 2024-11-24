@@ -1,7 +1,7 @@
 ---
 title: "Fundamentals of Tensor Calculus for Engineers with a Primer on Smooth Manifolds"
 collection: publications
-permalink: /publications/publication3
+permalink: /publications/publication1
 excerpt: ""
 date: 2020-09-02
 authors: "Mühlich, U."
