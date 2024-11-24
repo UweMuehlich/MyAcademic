@@ -23,11 +23,11 @@ The reader is expected to have prior knowledge of engineering mathematics, parti
 <a href="https://link.springer.com/book/10.1007/978-3-031-30422-4" class="uline">Click here for the book at Springer Nature. </a>
 
 or DOI: https://doi.org/10.1007/978-3-031-30422-4
-<!---
+
+<!--
 ## Contribution
-This is what I did!
+
 
 ## Abstract
-Super details
 -->
 <!-- [Download paper here](https://www.paper.link/) -->
