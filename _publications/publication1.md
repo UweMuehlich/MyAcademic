@@ -10,9 +10,11 @@ classes: wide
 ---
 ## Cover
 
+
 <p class="aligncenter">
-  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; <img src="/files/FOTC.jpeg " alt="centered image" />
+  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; <img src="{{site.url}}{{site.baseurl}}/files/FOTC.jpeg " alt="centered image" />
 </p>
+
 
 ## Summary
 
