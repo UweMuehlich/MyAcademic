@@ -23,5 +23,8 @@ classes: wide
 </video>
 -->
 
+<video width="320" height="240" control loop="" muted="" autoplay="">
+  <source="https://github.com/UweMuehlich/MyAcademic/raw/refs/heads/master/files/SchChainAv1p0_500.mp4">
+</video>video>
 
 Coming soon. I still have to process the videos with a software to circumvent embedding problems.
