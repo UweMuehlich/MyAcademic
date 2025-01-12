@@ -23,7 +23,9 @@ classes: wide
 </video>
 -->
 
-<video width="320" height="240" control loop="" muted="" autoplay="">
+## Embedded mp4
+
+<video width="320" height="240" controls="controls">
   <source="https://github.com/UweMuehlich/MyAcademic/raw/refs/heads/master/files/SchChainAv1p0_500.mp4">
 </video>
 
