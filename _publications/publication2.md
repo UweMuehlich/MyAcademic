@@ -26,7 +26,7 @@ classes: wide
 ## Embedded mp4
 
 <video width="320" height="240" controls="controls">
-  <source="https://github.com/UweMuehlich/MyAcademic/raw/refs/heads/master/files/SchChainAv1p0_500.mp4">
+  <source="{{site.url}}{{site.baseurl}}/files/SchChainAv1p0_500.mp4">
 </video>
 
 Coming soon. I still have to process the videos with a software to circumvent embedding problems.
