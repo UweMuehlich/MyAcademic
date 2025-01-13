@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course / Graduate Course"
 permalink: /teaching/MCMI
 university: "Universidad Austral de Chile"
-date: 2014-09-01
+date: 2025-01-13
 material: "yes"
 semester: "Spring 2020"
 ---
